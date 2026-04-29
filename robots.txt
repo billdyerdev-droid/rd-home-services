@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rdhomeservices.com/sitemap.xml
