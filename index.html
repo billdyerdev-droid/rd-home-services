@@ -42,39 +42,46 @@
 <section class="trust"><div class="trust-grid"><div>Locally Focused</div><div>Free Inspections</div><div>Insurance Claims Help</div><div>Roofing • Turf • Epoxy</div></div></section><section class="section split"><div><h2>Roofing Company Serving The Woodlands, Magnolia & Conroe</h2><p>RD Home Services is built for homeowners who want a clear, practical path to fixing or improving their property. Roofing is our primary focus, with roof repair, roof replacement, storm damage restoration and roof inspections serving as the core of our local service system.</p><p>If your roof has a leak, missing shingles, hail damage, wind damage or age-related wear, we can inspect it and explain the best next step. If insurance may be involved, we help you understand the process and document the roof condition clearly.</p><p>We also provide artificial turf installation and epoxy flooring for homeowners who want lower-maintenance yards, cleaner garages, and stronger curb appeal.</p></div><aside class="lead-form-card">
   <h3>Get a Free Inspection</h3>
   <p>Tell us what you need and RD Home Services will follow up fast.</p>
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="https://formspree.io/f/xnjwrajw">
-    <input type="hidden" name="form-name" value="contact">
-    <p class="hidden"><label>Do not fill this out: <input name="bot-field"></label></p>
+<form action="https://formspree.io/f/xnjwrajw" method="POST" class="contact-form">
+  <input type="hidden" name="_subject" value="New RD Home Services Lead">
 
-    <label>Name</label>
-    <input name="name" autocomplete="name" required>
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" autocomplete="name" required>
 
-    <label>Phone</label>
-    <input name="phone" autocomplete="tel" required>
+  <label for="phone">Phone</label>
+  <input id="phone" name="phone" type="tel" autocomplete="tel" required>
 
-    <label>Service Needed</label>
-    <select name="service" required>
-      <option value="">Choose a service</option>
-      <option>Roof Inspection</option>
-      <option>Roof Repair</option>
-      <option>Roof Replacement</option>
-      <option>Storm Damage / Insurance Claim</option>
-      <option>Turf Installation</option>
-      <option>Epoxy Flooring</option>
-    </select>
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" autocomplete="email">
 
-    <label>City / Area</label>
-    <select name="area" required>
-      <option value="">Choose an area</option>
-      <option>The Woodlands</option>
-      <option>Magnolia</option>
-      <option>Conroe</option>
-      <option>North Houston</option>
-      <option>Other Nearby Area</option>
-    </select>
+  <label for="service">Service Needed</label>
+  <select id="service" name="service" required>
+    <option value="">Choose a service</option>
+    <option value="Roof Inspection">Roof Inspection</option>
+    <option value="Roof Repair">Roof Repair</option>
+    <option value="Roof Replacement">Roof Replacement</option>
+    <option value="Storm Damage / Insurance Claim">Storm Damage / Insurance Claim</option>
+    <option value="Turf Installation">Turf Installation</option>
+    <option value="Epoxy Flooring">Epoxy Flooring</option>
+    <option value="Interior / Exterior Painting">Interior / Exterior Painting</option>
+    <option value="Home Repairs / Upgrades">Home Repairs / Upgrades</option>
+  </select>
 
-    <button class="btn form-submit" type="submit">Request Free Inspection</button>
-  </form>
+  <label for="area">City / Area</label>
+  <select id="area" name="area" required>
+    <option value="">Choose an area</option>
+    <option value="The Woodlands">The Woodlands</option>
+    <option value="Magnolia">Magnolia</option>
+    <option value="Conroe">Conroe</option>
+    <option value="North Houston">North Houston</option>
+    <option value="Other Nearby Area">Other Nearby Area</option>
+  </select>
+
+  <label for="message">Project Details</label>
+  <textarea id="message" name="message" rows="4" placeholder="Tell us what you need help with"></textarea>
+
+  <button class="btn form-submit" type="submit">Request a Free Estimate</button>
+</form>
   <div class="quick-call">Prefer to call? <a href="tel:3469468765">346-946-8765</a></div>
 </aside></section><section class="section"><h2>Core Services</h2><div class="grid"><div class="card"><h3>Roofing</h3><p>Roof repair, roof replacement, inspections and storm damage restoration for homeowners in The Woodlands, Magnolia and Conroe.</p><a href="/roofing/the-woodlands/">View roofing services</a></div><div class="card"><h3>Artificial Turf</h3><p>Low-maintenance turf installation for backyards, side yards, pet areas and outdoor living spaces.</p><a href="/turf-installation/the-woodlands/">View turf services</a></div><div class="card"><h3>Epoxy Flooring</h3><p>Garage and residential epoxy floor coatings designed to improve durability, appearance and cleanability.</p><a href="/epoxy-flooring/the-woodlands/">View epoxy services</a></div></div></section><section class="section"><h2>Service Areas</h2><p>RD Home Services proudly serves The Woodlands, Magnolia, Conroe and North Houston. Our page structure is built so homeowners can find the exact service they need in the exact area they live.</p><div class="service-links"><a href="/roofing/the-woodlands/">Roofing The Woodlands</a><a href="/roofing/magnolia/">Roofing Magnolia</a><a href="/roofing/conroe/">Roofing Conroe</a><a href="/roof-repair/the-woodlands/">Roof Repair</a><a href="/roof-replacement/the-woodlands/">Roof Replacement</a><a href="/storm-damage/the-woodlands/">Storm Damage</a><a href="/insurance-claims/">Insurance Claims</a><a href="/contact/">Contact</a></div></section>
 <section class="section faq"><h2>Frequently Asked Questions</h2><details><summary>Do you offer free roof inspections?</summary><p>Yes. RD Home Services offers free roof inspections in The Woodlands, Magnolia, Conroe and surrounding North Houston areas.</p></details><details><summary>Do you help with insurance claims?</summary><p>Yes. When storm damage is involved, we can help document the damage and guide you through the claim process.</p></details><details><summary>How do I schedule service?</summary><p>Call 346-946-8765 or submit the contact form and we will follow up to schedule the next step.</p></details></section>

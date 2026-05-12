@@ -42,39 +42,46 @@
 <section class="section split"><div><h2>Contact RD Home Services</h2><p>Ready to schedule a roof inspection, turf estimate or epoxy flooring estimate? Call RD Home Services or send your information through the form below. We serve The Woodlands, Magnolia, Conroe and North Houston.</p><p>For fastest service, call <strong>346-946-8765</strong>. You can also use the contact page to request a free inspection or estimate.</p><h2>Core Areas</h2><ul class="list"><li>The Woodlands, TX</li><li>Magnolia, TX</li><li>Conroe, TX</li><li>North Houston, TX</li></ul></div><aside class="lead-form-card">
   <h3>Get a Free Inspection</h3>
   <p>Tell us what you need and RD Home Services will follow up fast.</p>
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="https://formspree.io/f/xnjwrajw">
-    <input type="hidden" name="form-name" value="contact">
-    <p class="hidden"><label>Do not fill this out: <input name="bot-field"></label></p>
+<form action="https://formspree.io/f/xnjwrajw" method="POST" class="contact-form">
+  <input type="hidden" name="_subject" value="New RD Home Services Lead">
 
-    <label>Name</label>
-    <input name="name" autocomplete="name" required>
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" autocomplete="name" required>
 
-    <label>Phone</label>
-    <input name="phone" autocomplete="tel" required>
+  <label for="phone">Phone</label>
+  <input id="phone" name="phone" type="tel" autocomplete="tel" required>
 
-    <label>Service Needed</label>
-    <select name="service" required>
-      <option value="">Choose a service</option>
-      <option>Roof Inspection</option>
-      <option>Roof Repair</option>
-      <option>Roof Replacement</option>
-      <option>Storm Damage / Insurance Claim</option>
-      <option>Turf Installation</option>
-      <option>Epoxy Flooring</option>
-    </select>
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" autocomplete="email">
 
-    <label>City / Area</label>
-    <select name="area" required>
-      <option value="">Choose an area</option>
-      <option>The Woodlands</option>
-      <option>Magnolia</option>
-      <option>Conroe</option>
-      <option>North Houston</option>
-      <option>Other Nearby Area</option>
-    </select>
+  <label for="service">Service Needed</label>
+  <select id="service" name="service" required>
+    <option value="">Choose a service</option>
+    <option value="Roof Inspection">Roof Inspection</option>
+    <option value="Roof Repair">Roof Repair</option>
+    <option value="Roof Replacement">Roof Replacement</option>
+    <option value="Storm Damage / Insurance Claim">Storm Damage / Insurance Claim</option>
+    <option value="Turf Installation">Turf Installation</option>
+    <option value="Epoxy Flooring">Epoxy Flooring</option>
+    <option value="Interior / Exterior Painting">Interior / Exterior Painting</option>
+    <option value="Home Repairs / Upgrades">Home Repairs / Upgrades</option>
+  </select>
 
-    <button class="btn form-submit" type="submit">Request Free Inspection</button>
-  </form>
+  <label for="area">City / Area</label>
+  <select id="area" name="area" required>
+    <option value="">Choose an area</option>
+    <option value="The Woodlands">The Woodlands</option>
+    <option value="Magnolia">Magnolia</option>
+    <option value="Conroe">Conroe</option>
+    <option value="North Houston">North Houston</option>
+    <option value="Other Nearby Area">Other Nearby Area</option>
+  </select>
+
+  <label for="message">Project Details</label>
+  <textarea id="message" name="message" rows="4" placeholder="Tell us what you need help with"></textarea>
+
+  <button class="btn form-submit" type="submit">Request a Free Estimate</button>
+</form>
   <div class="quick-call">Prefer to call? <a href="tel:3469468765">346-946-8765</a></div>
 </aside></section>
 <section class="section faq"><h2>Frequently Asked Questions</h2><details><summary>Do you offer free roof inspections?</summary><p>Yes. RD Home Services offers free roof inspections in The Woodlands, Magnolia, Conroe and surrounding North Houston areas.</p></details><details><summary>Do you help with insurance claims?</summary><p>Yes. When storm damage is involved, we can help document the damage and guide you through the claim process.</p></details><details><summary>How do I schedule service?</summary><p>Call 346-946-8765 or submit the contact form and we will follow up to schedule the next step.</p></details></section>
