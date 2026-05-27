@@ -1,0 +1,20 @@
+RD Home Services patch notes
+
+Patched these live project files while preserving your existing /css/styles.css styling, logo header, hamburger nav, lead form card, footer, map embed, and mobile sticky CTA:
+
+- turf-installation/the-woodlands/index.html
+- epoxy-flooring/the-woodlands/index.html
+- roofing/the-woodlands/index.html
+- roofing/magnolia/index.html
+- roofing/conroe/index.html
+
+Main fixes:
+- Removed standalone inline CSS from the five pages that caused styling to look different.
+- Reconnected pages to /css/styles.css.
+- Restored real RD logo header and hamburger navigation.
+- Fixed canonical URLs.
+- Kept phone number consistent as 832-732-9978.
+- Rewrote turf and epoxy copy so they no longer mention roofing services incorrectly.
+- Expanded the three roofing city pages with more unique local content.
+
+Upload/push this full folder contents to GitHub/Cloudflare Pages.
