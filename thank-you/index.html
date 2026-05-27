@@ -22,12 +22,17 @@
   <title>Thank You | RD Home Services</title>
   <meta name="description" content="Thank you for contacting RD Home Services.">
   <link rel="stylesheet" href="/css/styles.css">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
 </head>
 <body>
   <header class="header">
     <div class="nav">
       <a class="logo" href="/"><img src="/img/rdhome_logo.png" alt="RD Home Services" width="160" height="52"></a>
-      <nav class="navlinks"><a class="callbtn" href="tel:8327329978">Call 832-732-9978</a></nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button><nav class="navlinks"><a class="callbtn" href="tel:8327329978">Call 832-732-9978</a></nav>
     </div>
   </header>
   <section class="hero">
@@ -40,5 +45,10 @@
       </div>
     </div>
   </section>
+<script>
+var btn=document.getElementById("hamburger");
+var nav=document.querySelector(".navlinks");
+if(btn&&nav){btn.addEventListener("click",function(){btn.classList.toggle("open");nav.classList.toggle("open")});document.querySelectorAll(".navlinks a").forEach(function(a){a.addEventListener("click",function(){btn.classList.remove("open");nav.classList.remove("open")})});}
+</script>
 </body>
 </html>
