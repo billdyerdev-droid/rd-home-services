@@ -7,6 +7,27 @@
   gtag('js', new Date());
 
   gtag('config', 'G-M92SC1LQ7F');
+</script>
+<script>
+(function(){
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if(a){
+      gtag('event', 'phone_call_click', {
+        'link_url': a.getAttribute('href'),
+        'page_path': window.location.pathname
+      });
+    }
+  }, true);
+  document.addEventListener('submit', function(e){
+    if(e.target && e.target.matches && e.target.matches('.contact-form')){
+      gtag('event', 'generate_lead', {
+        'form_id': e.target.getAttribute('id') || 'contact-form',
+        'page_path': window.location.pathname
+      });
+    }
+  }, true);
+})();
 </script><!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M92SC1LQ7F"></script>
 <script>

@@ -7,6 +7,27 @@
   gtag('js', new Date());
   gtag('config', 'G-M92SC1LQ7F');
 </script>
+<script>
+(function(){
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if(a){
+      gtag('event', 'phone_call_click', {
+        'link_url': a.getAttribute('href'),
+        'page_path': window.location.pathname
+      });
+    }
+  }, true);
+  document.addEventListener('submit', function(e){
+    if(e.target && e.target.matches && e.target.matches('.contact-form')){
+      gtag('event', 'generate_lead', {
+        'form_id': e.target.getAttribute('id') || 'contact-form',
+        'page_path': window.location.pathname
+      });
+    }
+  }, true);
+})();
+</script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>RD Home Services | Home Services Company in The Woodlands, Magnolia & Conroe TX</title>
 <meta name="description" content="From the Roof Down — We Handle It. RD Home Services is a home services company that starts with your roof and coordinates roofing, siding, fencing, gutters, epoxy flooring, turf, painting and more in The Woodlands, Magnolia and Conroe.">
