@@ -233,3 +233,61 @@
 @media(max-width:850px){
   .job-grid{grid-template-columns:1fr}
 }
+
+/* ── Reviews ────────────────────────────────────────────────────── */
+.review-score{
+  font-size:20px;
+  color:#ffb400;
+  font-weight:800;
+  margin:0 0 14px;
+}
+.review-score strong{color:#fff}
+
+.review-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.review-card{
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:22px;
+  background:#fff;
+  box-shadow:0 8px 24px rgba(11,37,69,.06);
+}
+
+.review-stars{
+  color:#ffb400;
+  font-size:16px;
+  letter-spacing:2px;
+  margin-bottom:10px;
+}
+
+.review-card p{
+  color:var(--text);
+  font-size:15px;
+  line-height:1.6;
+  margin:0 0 14px;
+}
+
+.review-author{
+  font-weight:800;
+  color:var(--navy);
+  font-size:14px;
+}
+
+.review-author span{
+  font-weight:400;
+  color:var(--muted);
+}
+
+.review-cta{
+  text-align:center;
+  margin-top:26px;
+  color:var(--muted);
+}
+
+@media(max-width:850px){
+  .review-grid{grid-template-columns:1fr}
+}

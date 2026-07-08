@@ -61,6 +61,20 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Siding -->
+  <url><loc>https://rdhomeservices.com/siding/the-woodlands/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rdhomeservices.com/siding/magnolia/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rdhomeservices.com/siding/conroe/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Fencing -->
+  <url><loc>https://rdhomeservices.com/fencing/the-woodlands/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rdhomeservices.com/fencing/magnolia/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rdhomeservices.com/fencing/conroe/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Gallery & Reviews -->
+  <url><loc>https://rdhomeservices.com/gallery/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rdhomeservices.com/reviews/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 
   <url><loc>https://rdhomeservices.com/turf-installation/the-woodlands/</loc></url>
   <url><loc>https://rdhomeservices.com/epoxy-flooring/the-woodlands/</loc></url>
